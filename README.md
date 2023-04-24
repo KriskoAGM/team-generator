@@ -3,8 +3,11 @@ Team Generator is a web application built with HTML, CSS, and JavaScript that al
 
 # How to Use NameShuffler
 1.Open the [Team Generator]() website in a web browser.
+<br/>
 2.Input the names of all the players in the input field.
+<br/>
 3.Click the "Generate" button to shuffle the names randomly and divide them into teams.
+<br/>
 4.The resulting teams will be displayed on the page.
 
 # Design
