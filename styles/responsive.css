@@ -1,0 +1,41 @@
+@media screen and (min-width: 483px) {
+    .nav {
+        justify-content: space-between;
+    }
+
+    .nav h2 {
+        padding-left: 30px;
+    }
+
+    .nav button {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .nav {
+        justify-content: space-between;
+        padding-inline: 25px;
+    }
+
+    .nav button {
+        display: none;
+    }
+
+    .nav .contacts {
+        flex-direction: row;
+        position: unset;
+        gap: 15px;
+        width: 50%;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    .nav .contacts a {
+        border-bottom: none;
+    }
+
+    .nav h2 {
+        padding-inline: 0;
+    }
+}
