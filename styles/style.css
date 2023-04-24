@@ -49,6 +49,10 @@ body {
     font-size: 22px;
 }
 
+.nav button:focus i {
+    transition: all ease-in 0.3s;
+}
+
 .nav .contacts {
     display: none;
     flex-direction: column;
@@ -63,7 +67,7 @@ body {
     text-decoration: none;
     color: white;
     padding-block: 5px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid rgb(69, 69, 69);
 }
 
 .nav .contacts a i {
