@@ -2,7 +2,7 @@
 Team Generator is a web application built with HTML, CSS, and JavaScript that allows users to input a list of player names, shuffle them randomly, and divide them into teams of two players each. The application can be used for a variety of purposes, such as organizing a sports team or assigning partners for a class project.
 
 # How to Use NameShuffler
-1.Open the [Team Generator]() website in a web browser.
+1.Open the [Team Generator](https://kriskoagm.github.io/two-player-team-generator/) website in a web browser.
 <br/>
 2.Input the names of all the players in the input field.
 <br/>
