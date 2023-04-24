@@ -50,7 +50,7 @@ function generatePlayers() {
     console.log(allNames);
 
     if (!validPlayers(allNames)) {
-        alert('At least 4 players and the player count MUST be odd');
+        alert('At least 4 players and the player count MUST be EVEN');
         return;
     };
 
