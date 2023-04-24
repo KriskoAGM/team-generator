@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/titillium-web');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+
+form,
+input,
+textarea,
+select,
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-image: linear-gradient(to right bottom, #070f2c, #0a1646, #1d185e, #371575, #570088);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.nav h2 {
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.nav button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav button i {
+    color: white;
+    font-size: 22px;
+}
+
+.nav .contacts {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -105px;
+}
+
+.nav .contacts a {
+    text-decoration: none;
+    color: white;
+    padding-block: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.nav .contacts a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.players-names {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.players-names input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    width: 80%;
+    outline: none;
+    height: 35px;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.players-names input::placeholder {
+    font-style: italic;
+}
+
+.players-names button {
+    border-radius: 25px;
+    padding: 10px 30px;
+    background-color: #570088;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.players-names button:hover {
+    background-color: #861bc3;
+}
+
+.team {
+    color: white;
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.team p {
+    margin: 0;
+}
