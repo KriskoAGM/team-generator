@@ -3,7 +3,6 @@ Team Generator is a web application built with HTML, CSS, and JavaScript that al
 
 # How to Use Team Generator
 1. Open the [Team Generator](https://kriskoagm.github.io/two-player-team-generator/) website in a web browser.
-<br/>
 2. Input the names of all the players in the input field.
 <br/>
 3. Click the "Generate" button to shuffle the names randomly and divide them into teams.
