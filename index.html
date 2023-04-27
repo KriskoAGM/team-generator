@@ -12,7 +12,7 @@
 
 <body>
     <div class="nav">
-        <h2>Two Player Teams Generator.</h2>
+        <h2>Teams Generator.</h2>
         <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
         <div class="contacts">
             <a href="https://www.facebook.com/iordanow" target="_blank"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
@@ -21,6 +21,15 @@
         </div>
     </div>
     <div class="container">
+        <div class="player-count">
+            <p>Players in team:</p>
+            <select name="players" id="player-count">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
         <div class="players-names">
             <input id="names" type="text" placeholder="Name1 Name2...">
             <button id="generate-btn">Generate</button>

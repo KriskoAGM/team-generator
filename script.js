@@ -1,3 +1,4 @@
+const playerCount = document.getElementById('player-count');
 const names = document.getElementById('names');
 const teamsSection = document.getElementById('teams');
 const generateBtn = document.getElementById('generate-btn');
@@ -47,10 +48,9 @@ function generatePlayers() {
     }
 
     const allNames = names.value.trim().split(' ');
-    console.log(allNames);
 
     if (!validPlayers(allNames)) {
-        alert('At least 4 players and the player count MUST be EVEN');
+        alert('Invalid number of players!');
         return;
     };
 
@@ -69,14 +69,15 @@ function generatePlayers() {
 }
 
 function validPlayers(arr) {
-    return arr.length >= 4 && arr.length % 2 === 0;
+    return arr.length >= playerCount.value * 2 && arr.length % playerCount.value === 0;
 }
 
 function divideTeams(arr) {
+    const players = Number(playerCount.value);
     const teamsArr = [];
 
-    for (let i = 0; i < arr.length; i += 2) {
-        teamsArr.push(arr.slice(i, i + 2));
+    for (let i = 0; i < arr.length; i += players) {
+        teamsArr.push(arr.slice(i, i + players));
     };
 
     return teamsArr;
